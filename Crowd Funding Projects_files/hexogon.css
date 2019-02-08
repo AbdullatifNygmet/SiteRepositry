@@ -1,0 +1,51 @@
+/*===== The CSS =====*/
+.progress{
+	width: 200px;
+	height: 250px;
+    background-color: unset;
+}
+.progress .track, .progress .fill{
+	fill: rgba(0, 0, 0, 0);
+	stroke-width: 75;
+	transform: translate(100px, 750px)rotate(-90deg);
+}
+.progress .track{
+	stroke: #BFBDBD;
+}
+.progress .fill {
+	stroke: rgb(255, 255, 255);
+	stroke-linecap: butt;
+	stroke-dasharray: 2160;
+	stroke-dashoffset: 2160;
+	transition: stroke-dashoffset 1s;
+}
+.progress .fill {
+	stroke: #2969B1;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+		cursor: default;
+}
+.progress .value {
+    text-anchor: middle;
+}
+#donators-count {
+    font-size: 80px;
+    fill: #2969B1;
+}
+#donated-percent {
+    font-size: 120px;
+
+}
+#donated-money {
+    font-size: 80px;
+    fill: #2969B1;
+}
+#total-planned {
+    font-size: 50px;
+}

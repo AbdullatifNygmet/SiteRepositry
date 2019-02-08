@@ -1,0 +1,146 @@
+.project_details {
+  padding-top: 50px;
+  color: white;
+  font-family: 'Montserrat';
+}
+
+.project_date {
+  font-size: 13px;
+}
+
+.share {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  transform: translate(-5%,-5%);
+}
+
+.ss_animate {
+  -webkit-animation: badbounce 1s linear;
+  -moz-animation: badbounce 1s linear;
+  animation: badbounce 1s linear;
+}
+
+.main-container {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #0b1115;
+    color: #222;
+    font-family: Montserrat;
+}
+
+.header-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+.body-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.media-link {
+    width: 100%;
+    height: 300px;
+    border: 3px solid #2969B1;
+    border-radius: 2px;
+}
+
+.tab-content .tab-pane {
+    border: unset !important;
+    padding-bottom: 20px;
+}
+
+.created-date-desc {
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: bold;
+    color: grey;
+}
+
+.bold-title {
+    font-weight: bold;
+}
+
+.progress {
+    margin: auto;
+}
+
+.comment-btn {
+    font-weight: bold;
+    background-color: #2969B1;
+}
+
+#all-comments {
+    max-height: 650px;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+
+.donation-input {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+h2 > a.header-name {
+    color: white;
+    font-weight: bold;
+}
+
+.header-date {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link {
+    color: #BFBDBD;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link:hover {
+    font-weight: bold;
+    color: #495057;
+}
+
+.nav-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (min-width: 1200px) {
+    .nav-container {
+        max-width: 1240px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	.detail-header {
+        padding-left: 20px;
+    }
+}
+
+.fa {
+	color: #D0D0D0;
+}
+
+.input-group-text {
+	background: #F0F0F0;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+}
+
+textarea,
+textarea::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
